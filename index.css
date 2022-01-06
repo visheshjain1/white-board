@@ -1,0 +1,43 @@
+body{
+    margin:0px;
+    padding:30px;
+    overflow:hidden;
+    background-color:rgb(53, 47, 47);
+}
+canvas{
+    box-shadow:-3px 2px 9px 6px black;
+    cursor: crosshair;
+}
+.tools{
+    display:flex;
+    justify-content: center;
+    margin-top:15px;
+    flex-wrap: wrap;
+}
+.tools .color-field{
+    height:40px;
+    width:20px;
+    cursor:pointer;
+    min-width: 40px;
+    min-height: 40px;
+    border-radius:50%;
+    display:inline-block;
+    border:2px solid white;
+    margin:0px 10px;
+    
+}
+.tools .button{
+    width:100px;
+    height:40px;
+    border:2px solid white;
+    cursor:pointer;
+    margin:0px 10px;
+
+}
+.color-picker{
+    align-self:center
+}
+.canvas-parent{
+    display:flex;
+    justify-content: center;
+}
